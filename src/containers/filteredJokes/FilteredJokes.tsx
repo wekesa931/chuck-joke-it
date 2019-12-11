@@ -9,6 +9,7 @@ import { IFilter, IChuckJoke } from '../../types/chuckJoke'
 import { AppState } from '../../store'
 import { AppActions } from '../../types/actions'
 import { getFilteredJokes } from '../../actions/filteredJokes'
+import './filtered.scss'
 
 const { Search } = Input;
 type Props = LinkStateProps & LinkDispatchProps;
@@ -51,7 +52,7 @@ const FilteredJokes: React.SFC<Props & IFilterItem> = (props) => {
   }
 
   return ( 
-    <div style={{display: 'flex', flexDirection: 'column'}}>
+    <div className="filtered-items">
       <div style={{padding: '0 40%'}}>
         <Search placeholder="Input search text"
           onSearch={value => searchFilter(value)} enterButton />

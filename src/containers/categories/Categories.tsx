@@ -30,9 +30,9 @@ const Categories: React.SFC<Props> = (props) => {
   }
 
   return (
-    <React.Fragment>
+    <div className='categorie-items-container'>
       {screenView}
-    </React.Fragment>
+    </div>
   )
 }
 

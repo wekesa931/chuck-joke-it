@@ -34,9 +34,9 @@ const Favorites: React.SFC = () => {
     )
   }
   return ( 
-    <React.Fragment>
+    <div className='fav-items'>
       {screenView}
-    </React.Fragment>
+    </div>
    );
 }
 

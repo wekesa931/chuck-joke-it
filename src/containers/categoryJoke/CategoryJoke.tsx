@@ -35,9 +35,9 @@ const CategoryJoke: React.SFC<Props & RouteComponentProps> = (props) => {
     />
   }
   return ( 
-    <React.Fragment>
+    <div className='categoryJoke-item'>
       {screenView}
-    </React.Fragment>
+    </div>
    );
 }
 
