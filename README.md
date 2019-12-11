@@ -1,9 +1,19 @@
 # NorrisJokesies
 
-An application that fetches data from the **chucknorris.io API**
+An application that consumes the **chucknorris.io API**
 
 To run the application:
-`npm start`
+```
+$ git clone https://github.com/wekesa931/chuck-joke-it.git
+$ cd chuck-joke-it
+$ npm install
+$ npm run
+```
+
+To run the tests
+```
+npm test -- --coverage --watchAll=false
+```
 
 The application has been hosted on [heroku](https://chuck-know-it.herokuapp.com/)
 
