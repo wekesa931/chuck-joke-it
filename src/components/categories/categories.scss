@@ -1,0 +1,26 @@
+.filters {
+  display: none
+}
+.category-text {
+  font-family: 'Indie Flower', cursive;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #611e1e;
+}
+.main-categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &-cards {
+    cursor: pointer;
+    width: 250px;
+    margin-top: 16px;
+    display: block;
+    height: 75px;
+    margin-left: 1%;
+    border-radius: 5%;
+  }
+}
+             

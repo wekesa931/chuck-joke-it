@@ -1,0 +1,18 @@
+img {
+  width: 5%
+}
+.main-joke {
+  text-align: center;
+  &-icons {
+    display: flex;
+    flex-direction: row;
+    &-fav {
+      width: 47%;
+      text-align: right
+    }
+    &-next {
+      width: 50%;
+      text-align: left
+    }
+  }
+}
