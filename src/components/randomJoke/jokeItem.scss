@@ -1,4 +1,4 @@
-img {
+.chuck-face {
   width: 5%
 }
 .main-joke {
@@ -14,5 +14,10 @@ img {
       width: 50%;
       text-align: left
     }
+  }
+}
+@media screen and (max-width: 592px) {
+  .chuck-face {
+    width: 16%;
   }
 }

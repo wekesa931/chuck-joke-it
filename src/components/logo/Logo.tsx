@@ -12,7 +12,7 @@ const Logo: React.SFC<LogoProps> = () => {
   return ( 
     <React.Fragment>
       <div className='logo-container'>
-        <img style={{width: '21%'}} src={logo} alt="Logo" />
+        <img className='main-logo' src={logo} alt="Logo" />
       </div>
       <div className='links-container' >
         <Link className='navigation-pane' to='/'>Categories</Link>

@@ -65,7 +65,7 @@ const RandomJoke: React.SFC<Props> = (props) => {
             <img 
               src={`${randomChuckJoke.icon_url}`}
               alt="new"
-              style={{width: '3%'}}
+              className='chuck-face'
               />
           </div>
           <div className='randomChuckJoke-text'>

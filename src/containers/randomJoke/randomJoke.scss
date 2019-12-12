@@ -29,3 +29,12 @@
 opacity: 1;
 transition: opacity 1000ms linear;
 }
+
+@media screen and (max-width: 592px) {
+  .joke-container {
+    padding: 0 5%;
+  }
+  .randomChuckJoke {
+    height: 145vw;
+  }
+}

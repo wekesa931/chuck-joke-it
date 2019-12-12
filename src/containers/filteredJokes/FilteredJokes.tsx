@@ -37,7 +37,7 @@ const FilteredJokes: React.SFC<Props & IFilterItem> = (props) => {
           <img 
             src={`${joke.icon_url}`}
             alt="new"
-            style={{width: '3%'}}
+            className='chuck-face'
             />
         </div>
         <div className='randomChuckJoke-text'>

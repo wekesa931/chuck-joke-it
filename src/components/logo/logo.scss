@@ -12,3 +12,15 @@
   display: flex;
   flex-direction: row;
 }
+.main-logo {
+  width: 21%
+}
+
+@media screen and (max-width: 992px) {
+  .main-logo {
+    width: 65%
+  }
+  .navigation-pane{
+    font-size: 15px;
+  }
+}

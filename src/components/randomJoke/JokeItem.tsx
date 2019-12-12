@@ -71,7 +71,7 @@ const JokeItem: React.SFC<JokeItemProps> = (props) => {
             <img 
               src={`${icon_url}`}
               alt="new"
-              style={{width: '3%'}}
+              className='chuck-face'
               />
           </div>
           <div className='randomChuckJoke-text'>
